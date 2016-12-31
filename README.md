@@ -15,3 +15,9 @@ Usage:
 backup_with_duplicity.sh [full]
 `
 
+Cronjob
+
+`
+# backup with duplicity
+28 13 * * * /backup_with_duplicity.sh 
+`
