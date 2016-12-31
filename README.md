@@ -25,5 +25,5 @@ First execution needs:
 
 ```
 # backup with duplicity
-28 13 * * * /backup_with_duplicity.sh 
+10 0 * * * /backup_with_duplicity.sh 
 ```
