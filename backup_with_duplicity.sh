@@ -43,7 +43,7 @@ BPROTO=scp
 # encryption algorithm for gpg, disable for default (CAST5)
 # see available ones via 'gpg --version'
 ALGO=AES
-
+mkdir -p $LOGDIR
 ##############################
 
 DUPLICITY=`which duplicity`
