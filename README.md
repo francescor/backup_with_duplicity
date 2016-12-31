@@ -9,7 +9,9 @@ Simple script for creating backups with Duplicity.
 Full backups are made on the 1st day of each month or with the 'full' option.
 Incremental backups are made on any other days.
 
+Usage:
+
 `
-USAGE: backup_with_duplicity.sh [full]
+backup_with_duplicity.sh [full]
 `
 
